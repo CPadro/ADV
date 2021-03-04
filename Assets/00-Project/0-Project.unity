@@ -916,6 +916,8 @@ PlayableDirector:
     value: {fileID: 5634460260084800393}
   - key: {fileID: 8799043895496295119, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 919132147830467785}
+  - key: {fileID: -1280146984617976049, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
+    value: {fileID: 2005028441}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1680582374
@@ -1104,6 +1106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005028439}
   - component: {fileID: 2005028440}
+  - component: {fileID: 2005028441}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -1186,6 +1189,25 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &2005028441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005028438}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2045250565
 GameObject:
   m_ObjectHideFlags: 0
