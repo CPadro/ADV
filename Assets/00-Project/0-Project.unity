@@ -1724,7 +1724,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.6226415, g: 0.020377362, b: 0, a: 1}
   m_Intensity: 3
-  m_Range: 0.5
+  m_Range: 1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3657,6 +3657,12 @@ PlayableDirector:
     value: {fileID: 7921528860507719049}
   - key: {fileID: -4443071762284118156, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 1925717584}
+  - key: {fileID: 8849308092194841185, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3888516072066722375, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7725585762738721909, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1680582374
