@@ -1881,6 +1881,8 @@ PlayableDirector:
     value: {fileID: 4486946876919610209}
   - key: {fileID: -9138290457633875431, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 378087865}
+  - key: {fileID: 7662248954615526842, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
+    value: {fileID: 7921528860507719049}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1680582374
@@ -4181,7 +4183,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921528860507719048}
-  m_LocalRotation: {x: -0, y: -0.74290305, z: -0, w: 0.669399}
+  m_LocalRotation: {x: 0, y: -0.74290305, z: -0, w: 0.669399}
   m_LocalPosition: {x: -0.24, y: -1.05, z: 5.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4192,7 +4194,7 @@ Transform:
   - {fileID: 8810334218720039104}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: -95.95901, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 5, z: 0}
 --- !u!1 &7684239216173009597
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,6 +4204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5968565528851907671}
+  - component: {fileID: 7684239216173009598}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4209,6 +4212,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &7684239216173009598
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684239216173009597}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &7765778685352202948
 Transform:
   m_ObjectHideFlags: 0
@@ -4232,6 +4254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7396384121798336306}
+  - component: {fileID: 7921528860507719049}
   m_Layer: 0
   m_Name: Gelatinous_Cube
   m_TagString: Untagged
@@ -4239,6 +4262,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &7921528860507719049
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7921528860507719048}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &8646894605300172179
 Transform:
   m_ObjectHideFlags: 0
