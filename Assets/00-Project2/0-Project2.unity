@@ -1629,6 +1629,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -4547023437831565079, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -6302387166079283946, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
+    value: {fileID: 874762409}
   m_ExposedReferences:
     m_References:
     - c37901ec93c8fce4b8f0e59257e7df41: {fileID: 0}
@@ -3127,6 +3129,7 @@ GameObject:
   - component: {fileID: 874762412}
   - component: {fileID: 874762411}
   - component: {fileID: 874762410}
+  - component: {fileID: 874762409}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -3134,6 +3137,102 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!82 &874762409
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874762408}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 10
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!23 &874762410
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4271,8 +4370,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119828703}
-  m_LocalRotation: {x: -0.15505078, y: 0.7273342, z: -0.17476393, w: -0.64529204}
-  m_LocalPosition: {x: 11.798569, y: 4.1952696, z: 1.3656998}
+  m_LocalRotation: {x: 0.09976784, y: -0.7620783, z: 0.121029444, w: 0.6281997}
+  m_LocalPosition: {x: 11.248756, y: 3.6548564, z: 1.1820058}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4821,8 +4920,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257697212}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.53, y: 5.27, z: 6.16}
+  m_LocalRotation: {x: 0.09976787, y: -0.7620781, z: 0.12102943, w: 0.6282}
+  m_LocalPosition: {x: 11.137857, y: 3.6388204, z: 1.7798786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5002,7 +5101,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 7107edd7ad634cc43a096bf74989a5a6, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!95 &1281976896
 Animator:
   serializedVersion: 3
@@ -6064,6 +6163,8 @@ PlayableDirector:
     value: {fileID: 2088992638}
   - key: {fileID: -4686455406593504866, guid: 4d378774d9a578f4399f39a9108ae127, type: 2}
     value: {fileID: 986179167}
+  - key: {fileID: -3641201962516015161, guid: 4d378774d9a578f4399f39a9108ae127, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1716286925
