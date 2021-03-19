@@ -1812,6 +1812,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398282908}
+  - component: {fileID: 398282910}
+  - component: {fileID: 398282909}
   m_Layer: 0
   m_Name: Timelines
   m_TagString: Untagged
@@ -1835,6 +1837,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &398282909
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398282907}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &398282910
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398282907}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -6560050085873687445, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
+    value: {fileID: 398282909}
+  - key: {fileID: -394775804818444425, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8736033303461912054, guid: 0d3e01b30eec2384ebbe81ac98560cf1, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - c37901ec93c8fce4b8f0e59257e7df41: {fileID: 1313406217}
+    - fd8c51a7ea809c5449c5669271eb402c: {fileID: 1716286921}
 --- !u!1 &404682000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6586,6 +6632,7 @@ GameObject:
   - component: {fileID: 1716286922}
   - component: {fileID: 1716286924}
   - component: {fileID: 1716286923}
+  - component: {fileID: 1716286925}
   m_Layer: 0
   m_Name: Lights
   m_TagString: Untagged
@@ -6653,6 +6700,21 @@ PlayableDirector:
     value: {fileID: 986179167}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &1716286925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716286921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &1733760510
 GameObject:
   m_ObjectHideFlags: 0
