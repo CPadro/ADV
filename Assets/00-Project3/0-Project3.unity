@@ -4774,18 +4774,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 3942053889819202335, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 1680582372}
-  - key: {fileID: -1333061664057668908, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
-    value: {fileID: 1897828763}
-  - key: {fileID: 6720487663437289019, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
-    value: {fileID: 4486946876919610208}
-  - key: {fileID: 8799043895496295119, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
-    value: {fileID: 919132147830467785}
   - key: {fileID: -1280146984617976049, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 2005028441}
-  - key: {fileID: -4712473644003096567, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
-    value: {fileID: 959105944620100736}
-  - key: {fileID: -3332398516924057731, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
-    value: {fileID: 4486946876919610209}
   - key: {fileID: -9138290457633875431, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
     value: {fileID: 378087865}
   - key: {fileID: -1150714202675201269, guid: b83f7d1cde5834d41b56ac0f3debfa1a, type: 2}
