@@ -7081,6 +7081,7 @@ GameObject:
   - component: {fileID: 1711813854995952959}
   - component: {fileID: 919132147914085611}
   - component: {fileID: 919132147914085612}
+  - component: {fileID: 919132147914085613}
   m_Layer: 0
   m_Name: Male_hand
   m_TagString: Untagged
@@ -7113,6 +7114,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f56a058349be444a474b6cc676b59c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  map: {fileID: 1897828763}
+  lid: {fileID: 4486946876919610209}
+--- !u!54 &919132147914085613
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147914085610}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &919132148876480050
 GameObject:
   m_ObjectHideFlags: 0
