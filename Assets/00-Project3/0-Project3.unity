@@ -7080,6 +7080,7 @@ GameObject:
   - component: {fileID: 3469287837716759029}
   - component: {fileID: 1711813854995952959}
   - component: {fileID: 919132147914085611}
+  - component: {fileID: 919132147914085612}
   m_Layer: 0
   m_Name: Male_hand
   m_TagString: Untagged
@@ -7100,6 +7101,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0013171555, y: 0.002706343, z: 0.0015059896}
   m_Center: {x: -0.0034152963, y: -0.0010473215, z: -0.0052838805}
+--- !u!114 &919132147914085612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147914085610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f56a058349be444a474b6cc676b59c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &919132148876480050
 GameObject:
   m_ObjectHideFlags: 0
@@ -7878,6 +7891,7 @@ GameObject:
   - component: {fileID: 7222017986372280466}
   - component: {fileID: 4486946876919610209}
   - component: {fileID: 4486946876919610208}
+  - component: {fileID: 4486946876919610210}
   m_Layer: 0
   m_Name: tapa
   m_TagString: Untagged
@@ -8000,6 +8014,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &4486946876919610210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4486946876919610207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.640106, y: 0.2500176, z: 0.9445048}
+  m_Center: {x: 0.31955484, y: 0.12383358, z: -0.014390952}
 --- !u!1 &4607604025426113543
 GameObject:
   m_ObjectHideFlags: 0

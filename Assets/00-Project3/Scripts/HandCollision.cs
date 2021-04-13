@@ -8,6 +8,6 @@ public class HandCollision : MonoBehaviour
     private void OnTriggerEnter(Collider collision) 
     {
         anim = collision.gameObject.GetComponent<Animator>();
-        anim.SetBool("Touched", !(anim.GetBool("Touched")));
+        anim.SetBool("lidOpened", !(anim.GetBool("lidOpened")));
     }
 }
