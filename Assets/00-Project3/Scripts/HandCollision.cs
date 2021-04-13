@@ -9,5 +9,6 @@ public class HandCollision : MonoBehaviour
     {
         anim = collision.gameObject.GetComponent<Animator>();
         anim.SetBool("lidOpened", !(anim.GetBool("lidOpened")));
+        anim.SetBool("touchedLid", !(anim.GetBool("touchedLid")));
     }
 }
