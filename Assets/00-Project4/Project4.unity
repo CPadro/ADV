@@ -1455,6 +1455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182041310}
+  - component: {fileID: 182041311}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1469,14 +1470,33 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182041309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 6.22, y: 0, z: -2.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 578885573}
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!95 &182041311
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182041309}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &187145815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4056,7 +4076,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f117883d369ffc741978dfbffa392b40,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f117883d369ffc741978dfbffa392b40,
         type: 3}
@@ -9429,6 +9449,8 @@ PlayableDirector:
     value: {fileID: 629661442}
   - key: {fileID: 373217426857549228, guid: ab57fd092ea1d054394b6bdf8300d974, type: 2}
     value: {fileID: 999671306}
+  - key: {fileID: 7226545656525728718, guid: ab57fd092ea1d054394b6bdf8300d974, type: 2}
+    value: {fileID: 182041311}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1043396877
