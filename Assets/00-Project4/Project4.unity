@@ -5756,6 +5756,12 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.01, z: 0}
+--- !u!95 &578885577 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: f117883d369ffc741978dfbffa392b40,
+    type: 3}
+  m_PrefabInstance: {fileID: 578885572}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &592277593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9450,7 +9456,7 @@ PlayableDirector:
   - key: {fileID: 373217426857549228, guid: ab57fd092ea1d054394b6bdf8300d974, type: 2}
     value: {fileID: 999671306}
   - key: {fileID: 7226545656525728718, guid: ab57fd092ea1d054394b6bdf8300d974, type: 2}
-    value: {fileID: 182041311}
+    value: {fileID: 578885577}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1043396877
