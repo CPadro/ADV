@@ -885,8 +885,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: b14af77d9b1320f4ea8afcab779614cd, type: 3}
-  m_Position: {x: -6.179873, y: -0.0460665, z: -0.14497608}
-  m_EulerAngles: {x: 0, y: -306.40698, z: 0}
+  m_Position: {x: -6.0925612, y: -0.0460665, z: 0.029573234}
+  m_EulerAngles: {x: 0, y: -391.754, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -1553,7 +1553,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0.3500000000000014
-    m_BlendOutDuration: 1.2333333333333343
+    m_BlendOutDuration: 0.9500000000000028
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1577,7 +1577,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: crouchIdle
   - m_Version: 1
-    m_Start: 45.25
+    m_Start: 45.53333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 5879829305546555796}
     m_Duration: 3.3333333333333335
@@ -1585,8 +1585,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 7226545656525728718}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.2333333333333343
-    m_BlendOutDuration: 1.6833333333333371
+    m_BlendInDuration: 0.9500000000000028
+    m_BlendOutDuration: 0.9500000000000028
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1610,7 +1610,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Crouch To Stand
   - m_Version: 1
-    m_Start: 46.9
+    m_Start: 47.916666666666664
     m_ClipIn: 0
     m_Asset: {fileID: 3287100797696754604}
     m_Duration: 1.9666666666666666
@@ -1618,7 +1618,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 7226545656525728718}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.6833333333333371
+    m_BlendInDuration: 0.9500000000000028
     m_BlendOutDuration: 0.28333333333333144
     m_MixInCurve:
       serializedVersion: 2
@@ -1643,7 +1643,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: PlayerIdle
   - m_Version: 1
-    m_Start: 48.583333333333336
+    m_Start: 49.6
     m_ClipIn: 0
     m_Asset: {fileID: 861081406860165194}
     m_Duration: 1.0333333333333334
@@ -1676,7 +1676,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: PlayerWalk
   - m_Version: 1
-    m_Start: 49.483333333333334
+    m_Start: 50.5
     m_ClipIn: 0
     m_Asset: {fileID: -8176061950292235793}
     m_Duration: 1.9666666666666686
@@ -1709,7 +1709,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: PlayerIdle
   - m_Version: 1
-    m_Start: 50.55
+    m_Start: 51.56666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 4691586951384460221}
     m_Duration: 3.2666666666666666
@@ -1718,7 +1718,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0.9000000000000057
-    m_BlendOutDuration: 0.3999999999999915
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1738,11 +1738,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0
+    m_PostExtrapolationTime: 0.95000000000001
     m_PreExtrapolationTime: 0
     m_DisplayName: PlayerFidget
   - m_Version: 1
-    m_Start: 53.41666666666667
+    m_Start: 55.78333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 6414553293298782199}
     m_Duration: 1.9666666666666686
@@ -1750,7 +1750,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 7226545656525728718}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.3999999999999915
+    m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2

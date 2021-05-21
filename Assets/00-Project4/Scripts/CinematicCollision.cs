@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
 
 public class CinematicCollision : MonoBehaviour
@@ -11,14 +12,13 @@ public class CinematicCollision : MonoBehaviour
     {
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
         cutsceneCam.Play();
-        //player.SetActive(false);
         StartCoroutine(EndCutscene());
     }
 
     IEnumerator EndCutscene()
     {
-        yield return new WaitForSeconds(10);
-        //player.SetActive(true);
+        yield return new WaitForSeconds(22);
         cutsceneCam.Stop();
+        SceneManager.LoadScene("Project4");
     }
 }
